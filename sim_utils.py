@@ -6,8 +6,6 @@ from bs4 import BeautifulSoup
 from urllib3.exceptions import NameResolutionError
 
 
-# Define the new DNS server
-
 
 def is_number_valid(number):
     cc_pattern = r'^92\d{10}$'
